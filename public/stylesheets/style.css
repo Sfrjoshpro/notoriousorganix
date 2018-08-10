@@ -32,10 +32,82 @@ a { color: inherit; text-decoration: none; }
 .submenu {
   margin: 0 auto;
 }
+
 .menuImg{
   width: 100px;
   height: 100px;
 }
+
+.menuImg#home
+{
+  
+  background: url(../../images/buttons/Home.png) no-repeat;
+  background-size: 100px 100px;
+
+}
+.menuImg#home:hover
+{
+  
+  background: url(../../images/buttons/Homeg.png) no-repeat;
+  background-size: 100px 100px;
+
+}
+.menuImg#products
+{
+  
+  background: url(../../images/buttons/products.png ) no-repeat;
+  background-size: 100px 100px;
+
+}
+.menuImg#products:hover
+{
+  
+  background: url(../../images/buttons/productsg.png) no-repeat;
+  background-size: 100px 100px;
+}
+  .menuImg#media
+  {
+    
+    background: url(../../images/buttons/Media.png) no-repeat;
+    background-size: 100px 100px;
+  
+  }
+  .menuImg#media:hover
+  {
+    
+    background: url(../../images/buttons/Mediag.png) no-repeat;
+    background-size: 100px 100px;
+  }
+
+    .menuImg#howitworks
+    {
+      
+      background: url(../../public/images/buttons/How\ It\ Works.png) no-repeat;
+      background-size: 100px 100px;
+    
+    }
+    .menuImg#howitworks:hover
+    {
+      
+      background: url(../../images/buttons/How\ It\ Worksg.png) no-repeat;
+      background-size: 100px 100px;
+    
+    }
+.menuImg#Img#aboutus
+{
+  
+  background: url(../../images/buttons/about.png) no-repeat;
+  background-size: 100px 100px;
+
+}
+.menuImg#aboutus:hover
+{
+  
+  background: url(../../images/buttons/aboutg.png) no-repeat;
+  background-size: 100px 100px;
+
+}
+
 .sign {
 padding-left: 700px;
 }
