@@ -16,9 +16,11 @@ a { color: inherit; text-decoration: none; }
   grid-template-areas: ". . . . .";
 }
 .LOGO{
-  width: 500px;
-  
-  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 9%;
 }
 .container {
   position: relative;
@@ -109,6 +111,17 @@ a { color: inherit; text-decoration: none; }
 
 }
 
-.sign {
-padding-left: 700px;
+.sign{
+margin-left: 40%;
+}
+.bottomMiddle {
+  display: grid;
+  height: 100%;
+  grid-template-columns: .95fr 1.1fr .95fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . .";
+}
+.copyright {
+  text-align: center;
+  padding-top: 15%;
 }
